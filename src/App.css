@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.one{
+  height: 50px;
+  width: 100%;
+  justify-content: space-around;
+  border: 1px solid black;
+  background-color: blue;
+  color:white;
+  font-style: oblique;
+  display: flex;
+  font-size: 35px;
+  /* text-decoration: none; */
+}
+.two{
+  text-decoration: none;
+}
+.three{
+  margin: auto;
+  width: 90%;
+  border: 1px solid rgb(247, 240, 240);
+  background-color:white;
+}
+.four{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  
+  
+}
+.five{
+  height:30px ;
+  border-radius: 30px;
+  
+  
+}
+th,td{
+  padding: 10px;
+  
+  border-bottom: 1px solid rgb(247, 240, 240);
+
+}
+.up1{
+  width: 100%;
+  
+  display: flex;
+  margin-top:2.5rem ;
+  justify-content: space-around;
+
+}
+.up2{
+  width: 100%;
+  margin-top: 15%;
+  
+  
+
+}
+.up3{
+  position: absolute;
+  top: 240px;
+  left: 220px;
+  
+  font-size: 20px;
+  background-image:linear-gradient(to bottom,#dcb8d4, rgb(249, 205, 213))
+}
+.up4{
+  position: absolute;
+  top: 240px;
+  left: 900px;
+  background-image:linear-gradient(to bottom,#dcb8d4, rgb(249, 205, 213));
+  
+  font-size: 20px;
+}
+.addstudentbutton{
+  margin-left: 70%;
+  height: 40px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+  border-radius:40px;
+
+}
+.up5{
+  position: absolute;
+  top: 335px;
+  left: 220px;
+  
+  font-size: 20px;
+  background-image: linear-gradient(rgb(252, 180, 192),rgb(249, 205, 213));
+}
+.up6{
+  position: absolute;
+  top: 335px;
+  left: 900px;
+  
+  font-size: 20px;
+  background-image: linear-gradient(rgb(252, 180, 192),rgb(249, 205, 213));
+}
+input{
+  height: 50px;
+  width: 300px;
+  margin-left: 50px;
+  background-color: rgb(249, 205, 213);
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+.button2{
+  width: 200px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 35px;
+  font-size: 25px;
+  margin: 20px;
+}
+.up7{
+  background-color: rgb(93, 88, 88);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
